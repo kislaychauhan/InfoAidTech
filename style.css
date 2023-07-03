@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    position: fixed;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    z-index: 1;
+}
+.bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+    background-repeat: no-repeat;
+}
+
+button{
+    background-color: rgb(17, 17, 17);
+    color: rgb(244, 244, 244);
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    margin-top: 20px;
+    width: 100%;
+    height: 30%;
+    border: none;
+    line-height: 20px;
+    cursor: pointer;
+      
+}
+button:hover{
+    color: rgb(36, 241, 104);
+    font-size: 16px;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+.home{
+    margin-left: 600px;
+}
+img{
+    position: inline-block;
+    border-radius: 50%;
+    margin: 5px 60px;
+ }
+h1{
+    font-size: 30px;
+    position: absolute;
+    color: aliceblue;
+    margin: 7px 140px;
+    font-family: Nunito;
+    letter-spacing: 0.1px;
+    text-align: left;
+ }
+ h2{
+    font-size: 12px;
+    position: absolute;
+    color: aliceblue;
+    margin: 42px 140px;
+    font-family: Nunito;
+    text-align: left;
+    letter-spacing: 7px;
+ }
+ h2:hover{
+    letter-spacing: 12px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+ }
+.bg-image{
+    position: absolute;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    size: cover; 
+    opacity: 10%;
+    max-width: 100vw;
+    max-height: 100vh;
+    bottom: 10px;
+ }
+ h3{
+    position: relative;
+    font-family: Montserrat;
+    width: 700px;
+    height: 30px;
+    font-size: 90px;
+    color: bisque;
+    left: 70px;
+    top: 300px;
+    text-align: left;
+ }
+ h4{
+    position: relative;
+    text-align: left;
+    font-family: Montserrat;
+    width: 700px;
+    height: 30px;
+    font-size: 17px;
+    color: rgb(176, 176, 176);
+    left: 80px;
+    top: 530px;
+    line-height: 35px;
+    letter-spacing: 0px;
+ }
